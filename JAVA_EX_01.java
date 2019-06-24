@@ -16,7 +16,6 @@ public class JAVA_EX_01 extends Application {
 			BorderPane root = new BorderPane();
 			
 			Scene scene = new Scene(root);
-			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
 			primaryStage.setScene(scene);
 			primaryStage.show();

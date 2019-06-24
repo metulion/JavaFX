@@ -16,7 +16,6 @@ public class JAVA_EX_02 extends Application {
 			BorderPane root = new BorderPane();
 			
 			Scene scene = new Scene(root);
-			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
 			primaryStage.setScene(scene);
 			primaryStage.show();
@@ -28,7 +27,6 @@ public class JAVA_EX_02 extends Application {
 	}
 	
 	public static void main(String[] args) {
-		//launch(args);
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the limit number.");
