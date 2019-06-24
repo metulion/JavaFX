@@ -31,6 +31,7 @@ public class JAVA_EX_02 extends Application {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the limit number.");
 		int limitNumber = scan.nextInt();
+		int counter=1;
 		
 		if(limitNumber<2) {
 			System.out.println("There is no Prime number under 2.");
@@ -50,8 +51,13 @@ public class JAVA_EX_02 extends Application {
 			}
 			if(j>Math.sqrt(i)) {
 				System.out.println(i);
+				counter++;
 			}
 		}
+		if(limitNumber>=2) {
+			System.out.println("Total prime numbers = " + counter);
+		}
+		
 	}
 	
 }
