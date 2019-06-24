@@ -36,7 +36,7 @@ public class JAVA_EX_02 extends Application {
 			System.out.println("There is no Prime number under 2.");
 		}
 			
-		System.out.println("Prime Numbers until the limit number:\n2 ");
+		else System.out.println("Prime Numbers until the limit number:\n2 ");
 		
 		for(int i=3 ; i<=limitNumber; i+=2) {
 			int j=2;
