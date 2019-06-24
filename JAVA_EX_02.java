@@ -40,7 +40,7 @@ public class JAVA_EX_02 extends Application {
 		
 		for(int i=3 ; i<=limitNumber; i+=2) {
 			int j=2;
-			for(j=2; j<=Math.sqrt(i); j++) {
+			for(; j<=Math.sqrt(i); j++) {
 				if(i%j==0) {
 					break;
 					}
